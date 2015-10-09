@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AnimationViewController.h
 //  CABasicAnimation的分类
 //
 //  Created by 谭高丰 on 15/10/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AnimationViewController : UIViewController
 
 @end
-
