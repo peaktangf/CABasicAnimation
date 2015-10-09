@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AnimationViewController : UIViewController
-
+@property (nonatomic, assign) int sign;
 @end

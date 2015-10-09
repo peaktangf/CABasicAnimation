@@ -9,22 +9,16 @@
 /* Begin PBXBuildFile section */
 		946896031BC56B1C00D4C22F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946896021BC56B1C00D4C22F /* main.m */; };
 		946896061BC56B1C00D4C22F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 946896051BC56B1C00D4C22F /* AppDelegate.m */; };
-		946896091BC56B1C00D4C22F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946896081BC56B1C00D4C22F /* ViewController.m */; };
 		9468960C1BC56B1C00D4C22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9468960A1BC56B1C00D4C22F /* Main.storyboard */; };
 		9468960E1BC56B1C00D4C22F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9468960D1BC56B1C00D4C22F /* Images.xcassets */; };
 		946896111BC56B1C00D4C22F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468960F1BC56B1C00D4C22F /* LaunchScreen.xib */; };
-		9468961D1BC56B1C00D4C22F /* CABasicAnimation___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468961C1BC56B1C00D4C22F /* CABasicAnimation___Tests.m */; };
+		946896281BC56B3200D4C22F /* CABasicAnimation+layerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 946896271BC56B3200D4C22F /* CABasicAnimation+layerAnimation.m */; };
+		946896301BC5727600D4C22F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468962F1BC5727600D4C22F /* AnimationViewController.m */; };
+		94C2F9A81BC6006D00C1FB1C /* Oval 53 + fa-apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C2F9A61BC6006D00C1FB1C /* Oval 53 + fa-apple.png */; };
+		94C2F9AE1BC60AE500C1FB1C /* AnimationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2F9AD1BC60AE500C1FB1C /* AnimationTableViewController.m */; };
+		94C2F9B21BC656E600C1FB1C /* Oval 53 + fa-apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C2F9B11BC656E600C1FB1C /* Oval 53 + fa-apple@2x.png */; };
+		F913D9B5B8829C0472694BEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24A42195E98BD8F000B54F9 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		946896171BC56B1C00D4C22F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 946895F51BC56B1C00D4C22F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 946895FC1BC56B1C00D4C22F;
-			remoteInfo = "CABasicAnimation的分类";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		946895FD1BC56B1C00D4C22F /* CABasicAnimation的分类.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CABasicAnimation的分类.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,14 +26,22 @@
 		946896021BC56B1C00D4C22F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		946896041BC56B1C00D4C22F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		946896051BC56B1C00D4C22F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		946896071BC56B1C00D4C22F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		946896081BC56B1C00D4C22F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9468960B1BC56B1C00D4C22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9468960D1BC56B1C00D4C22F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		946896101BC56B1C00D4C22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		946896161BC56B1C00D4C22F /* CABasicAnimation的分类Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CABasicAnimation的分类Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9468961B1BC56B1C00D4C22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9468961C1BC56B1C00D4C22F /* CABasicAnimation___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation___Tests.m"; sourceTree = "<group>"; };
+		946896261BC56B3200D4C22F /* CABasicAnimation+layerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+layerAnimation.h"; sourceTree = "<group>"; };
+		946896271BC56B3200D4C22F /* CABasicAnimation+layerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+layerAnimation.m"; sourceTree = "<group>"; };
+		9468962E1BC5727600D4C22F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		9468962F1BC5727600D4C22F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		94C2F9A61BC6006D00C1FB1C /* Oval 53 + fa-apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 53 + fa-apple.png"; sourceTree = "<group>"; };
+		94C2F9AC1BC60AE500C1FB1C /* AnimationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableViewController.h; sourceTree = "<group>"; };
+		94C2F9AD1BC60AE500C1FB1C /* AnimationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewController.m; sourceTree = "<group>"; };
+		94C2F9B11BC656E600C1FB1C /* Oval 53 + fa-apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 53 + fa-apple@2x.png"; sourceTree = "<group>"; };
+		97F9CFC506C497C6A65C0FE5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AC169F41A3FDFF1559F116A5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B24A42195E98BD8F000B54F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,25 +49,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		946896131BC56B1C00D4C22F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F913D9B5B8829C0472694BEB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A80C0121EAAE7E799867F25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC169F41A3FDFF1559F116A5 /* Pods.debug.xcconfig */,
+				97F9CFC506C497C6A65C0FE5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BE5097E6515ED7B5AD81FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B24A42195E98BD8F000B54F9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		946895F41BC56B1C00D4C22F = {
 			isa = PBXGroup;
 			children = (
+				94C2F9A61BC6006D00C1FB1C /* Oval 53 + fa-apple.png */,
+				94C2F9B11BC656E600C1FB1C /* Oval 53 + fa-apple@2x.png */,
 				946895FF1BC56B1C00D4C22F /* CABasicAnimation的分类 */,
 				946896191BC56B1C00D4C22F /* CABasicAnimation的分类Tests */,
 				946895FE1BC56B1C00D4C22F /* Products */,
+				1A80C0121EAAE7E799867F25 /* Pods */,
+				6BE5097E6515ED7B5AD81FDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				946895FD1BC56B1C00D4C22F /* CABasicAnimation的分类.app */,
-				946896161BC56B1C00D4C22F /* CABasicAnimation的分类Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,8 +99,12 @@
 			children = (
 				946896041BC56B1C00D4C22F /* AppDelegate.h */,
 				946896051BC56B1C00D4C22F /* AppDelegate.m */,
-				946896071BC56B1C00D4C22F /* ViewController.h */,
-				946896081BC56B1C00D4C22F /* ViewController.m */,
+				9468962E1BC5727600D4C22F /* AnimationViewController.h */,
+				9468962F1BC5727600D4C22F /* AnimationViewController.m */,
+				94C2F9AC1BC60AE500C1FB1C /* AnimationTableViewController.h */,
+				94C2F9AD1BC60AE500C1FB1C /* AnimationTableViewController.m */,
+				946896261BC56B3200D4C22F /* CABasicAnimation+layerAnimation.h */,
+				946896271BC56B3200D4C22F /* CABasicAnimation+layerAnimation.m */,
 				9468960A1BC56B1C00D4C22F /* Main.storyboard */,
 				9468960D1BC56B1C00D4C22F /* Images.xcassets */,
 				9468960F1BC56B1C00D4C22F /* LaunchScreen.xib */,
@@ -126,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946896201BC56B1C00D4C22F /* Build configuration list for PBXNativeTarget "CABasicAnimation的分类" */;
 			buildPhases = (
+				515E7FF15D07F00780B73A7A /* Check Pods Manifest.lock */,
 				946895F91BC56B1C00D4C22F /* Sources */,
 				946895FA1BC56B1C00D4C22F /* Frameworks */,
 				946895FB1BC56B1C00D4C22F /* Resources */,
+				E3475CC9DE5B9FD8ADC0777F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +160,6 @@
 			productName = "CABasicAnimation的分类";
 			productReference = 946895FD1BC56B1C00D4C22F /* CABasicAnimation的分类.app */;
 			productType = "com.apple.product-type.application";
-		};
-		946896151BC56B1C00D4C22F /* CABasicAnimation的分类Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 946896231BC56B1C00D4C22F /* Build configuration list for PBXNativeTarget "CABasicAnimation的分类Tests" */;
-			buildPhases = (
-				946896121BC56B1C00D4C22F /* Sources */,
-				946896131BC56B1C00D4C22F /* Frameworks */,
-				946896141BC56B1C00D4C22F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				946896181BC56B1C00D4C22F /* PBXTargetDependency */,
-			);
-			name = "CABasicAnimation的分类Tests";
-			productName = "CABasicAnimation的分类Tests";
-			productReference = 946896161BC56B1C00D4C22F /* CABasicAnimation的分类Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +172,6 @@
 				TargetAttributes = {
 					946895FC1BC56B1C00D4C22F = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					946896151BC56B1C00D4C22F = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 946895FC1BC56B1C00D4C22F;
 					};
 				};
 			};
@@ -189,7 +189,6 @@
 			projectRoot = "";
 			targets = (
 				946895FC1BC56B1C00D4C22F /* CABasicAnimation的分类 */,
-				946896151BC56B1C00D4C22F /* CABasicAnimation的分类Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,49 +198,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C2F9A81BC6006D00C1FB1C /* Oval 53 + fa-apple.png in Resources */,
 				9468960C1BC56B1C00D4C22F /* Main.storyboard in Resources */,
 				946896111BC56B1C00D4C22F /* LaunchScreen.xib in Resources */,
+				94C2F9B21BC656E600C1FB1C /* Oval 53 + fa-apple@2x.png in Resources */,
 				9468960E1BC56B1C00D4C22F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		946896141BC56B1C00D4C22F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		515E7FF15D07F00780B73A7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		E3475CC9DE5B9FD8ADC0777F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		946895F91BC56B1C00D4C22F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946896091BC56B1C00D4C22F /* ViewController.m in Sources */,
 				946896061BC56B1C00D4C22F /* AppDelegate.m in Sources */,
+				946896301BC5727600D4C22F /* AnimationViewController.m in Sources */,
 				946896031BC56B1C00D4C22F /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		946896121BC56B1C00D4C22F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9468961D1BC56B1C00D4C22F /* CABasicAnimation___Tests.m in Sources */,
+				94C2F9AE1BC60AE500C1FB1C /* AnimationTableViewController.m in Sources */,
+				946896281BC56B3200D4C22F /* CABasicAnimation+layerAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		946896181BC56B1C00D4C22F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 946895FC1BC56B1C00D4C22F /* CABasicAnimation的分类 */;
-			targetProxy = 946896171BC56B1C00D4C22F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9468960A1BC56B1C00D4C22F /* Main.storyboard */ = {
@@ -347,6 +360,7 @@
 		};
 		946896211BC56B1C00D4C22F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC169F41A3FDFF1559F116A5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CABasicAnimation的分类/Info.plist";
@@ -357,45 +371,12 @@
 		};
 		946896221BC56B1C00D4C22F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F9CFC506C497C6A65C0FE5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CABasicAnimation的分类/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		946896241BC56B1C00D4C22F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CABasicAnimation的分类Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CABasicAnimation的分类.app/CABasicAnimation的分类";
-			};
-			name = Debug;
-		};
-		946896251BC56B1C00D4C22F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CABasicAnimation的分类Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CABasicAnimation的分类.app/CABasicAnimation的分类";
 			};
 			name = Release;
 		};
@@ -418,14 +399,7 @@
 				946896221BC56B1C00D4C22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		946896231BC56B1C00D4C22F /* Build configuration list for PBXNativeTarget "CABasicAnimation的分类Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				946896241BC56B1C00D4C22F /* Debug */,
-				946896251BC56B1C00D4C22F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

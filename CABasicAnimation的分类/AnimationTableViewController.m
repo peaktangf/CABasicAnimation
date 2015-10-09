@@ -7,21 +7,21 @@
 //
 
 #import "AnimationTableViewController.h"
+#import "AnimationViewController.h"
 
 @interface AnimationTableViewController ()
-
+@property (nonatomic, strong) CALayer *imageLayer;
+@property (nonatomic, copy) NSArray *arr;
 @end
 
 @implementation AnimationTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+//    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellid"];
+    self.arr = [NSArray arrayWithObjects:@"闪烁动画",@"横向移动动画",@"缩放动画",@"旋转动画",@"更多...", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,27 +31,24 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return self.arr.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellid" forIndexPath:indexPath];
+    cell.textLabel.text = self.arr[indexPath.row];
     return cell;
 }
-*/
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    AnimationViewController *viewCon = [[AnimationViewController alloc] init];
+    viewCon.sign = (int)indexPath.row;
+    [self.navigationController pushViewController:viewCon animated:YES];
+}
+
 
 /*
 // Override to support conditional editing of the table view.
